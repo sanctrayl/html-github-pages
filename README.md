@@ -1,6 +1,3 @@
-### WebAssembly x86 emulation
-**[Click here](./index.html)**
-
 ### Task List
 Checklist:
 - [x] Create a public repository

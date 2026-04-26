@@ -11,15 +11,9 @@ window.onload = function() {
         memory_size: 32 * 1024 * 1024,
         vga_memory_size: 2 * 1024 * 1024,
         screen_container: document.getElementById("screen_container"),
-        bios: {
-            url: "seabios.bin",
-        },
-        vga_bios: {
-            url: "vgabios.bin",
-        },
-        fda: {
-            url: "kolibri.img",
-        },
+        bios: { url: "seabios.bin" },
+        vga_bios: { url: "vgabios.bin" },
+        fda: { url: "kolibri.img" },
         autostart: true,
     });
 }
